@@ -1,0 +1,108 @@
+@font-face {
+  font-family: AvenirNext-Medium;
+  src: url('/assets/fonts/AvenirNext-Medium.ttf');
+}
+@font-face {
+  font-family: AvenirNext-DemiBoldItalic;
+  src: url('/assets/fonts/AvenirNext-DemiBoldItalic.ttf');
+}
+.header {
+  background-color: white;;
+  padding: 1.5rem;
+  display: flex;
+  align-items: baseline;
+  position: sticky;
+  top: 0;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #F5EDE9;
+}
+h1, h2, h3 {
+  font-family: AvenirNext-DemiBoldItalic, sans-serif;
+  font-size: 36px;
+  color: #E84217;
+  width: fit-content;
+  
+  /* padding: 1rem 0; */
+}
+h2 {
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+span {
+  font-family: AvenirNext-Medium, sans-serif;
+  font-size: 30px;
+  color: #E96F68;
+  margin-right: 2rem;
+}
+p {
+  font-family: AvenirNext-Medium, sans-serif;
+  font-size: 18px;
+  padding-bottom: 1.1rem;
+  line-height: 2.1rem; 
+}
+img {
+  width: 100%;
+}
+.header span:last-child {
+  color:#E84217;
+  margin-left: 2rem;
+}
+#instructions {
+  padding: 5.5rem;
+  background-color: rgba(234, 112, 106, .5);
+}
+#instructions img {
+  width: 100%;
+}
+#definitions {
+  margin-top: 3.5rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid #F5EDE9;
+}
+#definitions p {
+  font-size: 14px;
+  color: #6D6161;
+  padding-bottom: 0.3rem;
+}
+h3 {
+  font-size: 20px;
+  padding: 0.5rem 0;
+}
+ h3 span {
+  color:#E96F68;
+  margin-left: 2.5rem;
+  font-size: 18px;
+ }
+
+#sketch {
+  margin: auto;
+  cursor: url('/assets/sticker-red.svg') 50 50, auto;
+  background-color: #F5EDE9;
+  
+}
+#add-image {
+  background-color: white;
+  border: none;
+  font-family: AvenirNext-Medium;
+  font-size: 18px;
+}
+#story span {
+  font-size: 18px;
+  margin: 0;
+}
+#story {
+  padding: 6.8rem 5rem 0 0;
+}
+footer p{
+  padding: 0;
+  font-size: 16px;
+  color:#E84217;
+  position: absolute;
+  right: 1rem;
+}
+footer {
+  display: flex;
+}
