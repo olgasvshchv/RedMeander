@@ -106,3 +106,46 @@ footer p{
 footer {
   display: flex;
 }
+#notice {
+  display: none;
+}
+@media (max-width:1000px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+  #notice {
+    display: block;
+    background-color: #E84217;
+    margin: 2rem;
+    padding: 1rem;
+    color:#F5EDE9;
+    font-size: 14px;
+  }
+  #notice p {
+    padding: 0;
+  }
+  #sketch {
+    display: none;
+  }
+  .header {
+    display: block;
+  }
+  .header span:last-child {
+    margin: 0;
+  }
+  #text {
+    display: none;
+  }
+  #instructions {
+    padding: 3rem;
+  }
+  #definitions {
+    margin: 0;
+  }
+  #story {
+    padding: 1rem;
+  }
+  #story p {
+    font-size: 16px;
+  }
+}

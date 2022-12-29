@@ -3,6 +3,15 @@ const img = document.createElement('img');
 const instructions = document.getElementById('instructions');
 const info = document.getElementById('text');
 
+// window.addEventListener("load", () => {
+//   // (A) CHECK FOR MOBILE
+//   let isMobile = navigator.userAgent.toLowerCase().match(/mobile/i);
+ 
+//   // (B) DO SOMETHING...
+//   if (isMobile) { sketch.replaceChild() }
+//   else { console.log("Not mobile device"); }
+// });
+
 document.getElementById('add-image').addEventListener("click", () => {
   addImage();
 });
