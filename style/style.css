@@ -7,7 +7,7 @@
   src: url('/assets/fonts/AvenirNext-DemiBoldItalic.ttf');
 }
 .header {
-  background-color: white;;
+  background-color: white;
   padding: 1.5rem;
   display: flex;
   align-items: baseline;
@@ -133,7 +133,7 @@ footer {
   .header span:last-child {
     margin: 0;
   }
-  #text {
+  #steps {
     display: none;
   }
   #instructions {
@@ -147,5 +147,10 @@ footer {
   }
   #story p {
     font-size: 16px;
+  }
+}
+@media (min-width:1400px) {
+  #story {
+    padding: 8rem;
   }
 }
